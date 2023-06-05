@@ -1,57 +1,73 @@
-*{
-
+* {
     margin: 0;
-    box-sizing:  border-box;
+    box-sizing: border-box;
 }
-.logo{
-    font-family: The Wild Breath of Zelda;
-    text-decoration: none;
-   
-    font-size: 30px;
-    padding: 0 40px;
-    line-height: 90px;
-    color: green;
-}
-body {
-    ​​padding: 45px 20px 0px;
-}
-​​
 
-​​
-.nav {
-    ​​
-    display: flex;
-    justify-content: space-between;
-    max-width: 992px;
-    margin: 0 auto;
+body {
+    padding: 45px 20px 0px;
 }
-​​
-.nav-menu {
-    ​​
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-​​
-.nav-menu-item {
-    ​​
-    font-size: 18px;
-    margin: 0 10px;
-    line-height: 90px;
-    width: max-content;
-}
-​​
-.nav-menu-link {
-    ​​
-    padding: 8px 12px;
-    border-radius: 10px;
-}
-.header{
-    background-color: goldenrod;
+
+.header {
+    background-color: #006666;
     height: 12%;
     top: 0;
     left: 0;
     width: 100%;
     position: fixed;
 }
-​​
+
+.logo {
+    font-family: "The Wild Breath of Zelda";
+    text-decoration: none;
+    font-size: 34px;
+    padding: 0 40px;
+    line-height: 90px;
+    color: #00cccc;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto; 
+}
+.nav-link{
+    color: #00ff66;
+    text-decoration:none;
+    
+}
+
+.nav-menu{
+    font-family: sans-serif;
+    font-weight: bold;
+    display:flex;
+    margin-right:340px;
+    list-style: none;
+    
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin:0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.nav-menu-link:hover{
+    font-size: 22px;
+    background-image: url(../img/totkBG.jpg);
+    transition: 0.7s;
+}
+.contenido{
+    background-image: url(../img/HyruleBG.png);
+    background-size:cover; 
+    background-position: center; 
+    top: 12%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    
+}
