@@ -34,7 +34,7 @@ h1{
     font-size:55px;
 }
 .contenido{
-    background-image: url(../img/HyruleBG.png);
+    background-image: url(../img/TriForce.jpg);
     background-size:cover;
     background-position: center;
     top: 12%;
@@ -49,4 +49,84 @@ h1{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.contenido-2{
+    background-image: url(../img/kokiriForest.jpg);
+    background-size:cover;
+    background-position: center;
+    top: 12%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+
+}
+.linkContainer{
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+}
+.link{
+    color: #00cccc;
+    text-decoration: none;
+}
+.link:hover{
+    font-size: 22px;
+    background-image: url(../img/totkBG.jpg);
+    transition: 0.7s;
+}
+.title2{
+    color: #006600;
+
+}
+.anterior{
+    margin-right:1000px;
+
+
+}
+.contenido-3{
+    background-image: url(../img/MajorasMask.jpg);
+    background-size:cover;
+    background-position: center;
+    top: 12%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+.title3{
+    color: #006600;
+}
+
+.contenido-4{
+    background-image: url(../img/ZeldaBG.jpg);
+    background-size:cover;
+    background-position: center;
+    top: 12%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+.title4{
+    color: #ff33ff;
+}
+.contenido-5{
+    background-image: url(../img/DaleZeldaDale.jpg);
+    background-size:cover;
+    background-position: center;
+    top: 12%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+.title5{
+    color: #990000; 
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
